@@ -6,9 +6,13 @@
     <title>Jouse Série 1 | Conheça a Jouse Série 1</title>
     <link href="./css/output.css" rel="stylesheet" />
   </head>
-  <body>
-    <header class="border-b border-gray-200">
-      <div class="mx-auto flex max-w-[1200px] items-center justify-between">
+  <body class="text-[15px] leading-tight tracking-tighter">
+    <header
+      class="grid grid-rows-[3.75rem_0fr] border-b border-gray-200 transition-all duration-300 lg:h-auto"
+    >
+      <div
+        class="mx-auto flex w-full max-w-[1200px] items-center justify-between"
+      >
         <a href="https://www.instagram.com/kayn.tracer/">
           <img
             src="https://www.jouse.com.br/static/img/logo/jouse.svg"
@@ -20,10 +24,115 @@
 
         <!-- Menu -->
         <div
-          class="grid h-[3.75rem] w-[3.75rem] cursor-pointer justify-items-center gap-2"
+          class="js-menu grid h-[3.75rem] w-[3.75rem] cursor-pointer justify-items-center gap-2"
         >
-          <div class="flex h-px w-4 self-end bg-black"></div>
-          <div class="flex h-px w-4 bg-black"></div>
+          <div
+            class="flex h-px w-4 self-end bg-black transition-transform"
+          ></div>
+          <div class="flex h-px w-4 bg-black transition-transform"></div>
+        </div>
+      </div>
+      <!-- Menu secundário -->
+      <div class="overflow-hidden bg-gray-100">
+        <div
+          class="mx-auto flex max-w-[1200px] flex-col justify-around lg:my-2 lg:flex-row lg:gap-4"
+        >
+          <!-- Camisa -->
+          <a
+            class="flex items-center justify-between gap-4 border-b border-gray-300 p-6 transition duration-300 hover:bg-white lg:rounded-2xl lg:border-0 lg:p-4"
+            href="#"
+          >
+            <div class="flex items-center gap-4">
+              <img
+                src="https://www.jouse.com.br/static/img/product/camiseta/icon.svg"
+                alt="Camisetas"
+                width="24"
+              />
+
+              <div>
+                <p class="font-bold">Camiseta</p>
+                <p class="text-gray-400">Camiseta de celulose</p>
+              </div>
+            </div>
+
+            <img
+              src="https://www.jouse.com.br/static/img/common/icon/icon_chevron-gray.svg"
+              alt="Seta Direita"
+              class="w-2 lg:hidden"
+            />
+          </a>
+          <!-- Jouse Merino -->
+          <a
+            class="flex items-center justify-between border-b border-gray-300 p-6 transition duration-300 hover:bg-white lg:gap-4 lg:rounded-2xl lg:border-0 lg:p-4"
+            href="#"
+          >
+            <div class="flex items-center gap-4">
+              <img
+                src="https://www.jouse.com.br/static/img/product/jouse-merino/icon.svg"
+                alt="Sueter"
+                width="24"
+              />
+
+              <div>
+                <p class="font-bold">Jouse Merino</p>
+                <p class="text-gray-400">Suéter de lã merino</p>
+              </div>
+            </div>
+
+            <img
+              src="https://www.jouse.com.br/static/img/common/icon/icon_chevron-gray.svg"
+              alt="Seta Direita"
+              class="w-2 lg:hidden"
+            />
+          </a>
+          <!-- Calça -->
+          <a
+            class="flex items-center justify-between border-b border-gray-300 p-6 transition duration-300 hover:bg-white lg:gap-4 lg:rounded-2xl lg:border-0 lg:p-4"
+            href="#"
+          >
+            <div class="flex items-center gap-4">
+              <img
+                src="https://www.jouse.com.br/static/img/product/jouse-chino/icon.svg"
+                alt="Calçass"
+                width="24"
+              />
+
+              <div>
+                <p class="font-bold">Jouse Chino</p>
+                <p class="text-gray-400">Calça Chino</p>
+              </div>
+            </div>
+
+            <img
+              src="https://www.jouse.com.br/static/img/common/icon/icon_chevron-gray.svg"
+              alt="Seta Direita"
+              class="w-2 lg:hidden"
+            />
+          </a>
+          <!-- Carteira -->
+          <a
+            class="flex items-center justify-between p-6 transition duration-300 hover:bg-white lg:gap-4 lg:rounded-2xl lg:p-4"
+            href="#"
+          >
+            <div class="flex items-center gap-4">
+              <img
+                src="https://www.jouse.com.br/static/img/product/jouse-serie-1/icon.svg"
+                alt="Carteira"
+                width="24"
+              />
+
+              <div>
+                <p class="font-bold">Jouse Série 1</p>
+                <p class="text-gray-400">Carteira de couro</p>
+              </div>
+            </div>
+
+            <img
+              src="https://www.jouse.com.br/static/img/common/icon/icon_chevron-gray.svg"
+              alt="Seta Direita"
+              class="w-2 lg:hidden"
+            />
+          </a>
         </div>
       </div>
     </header>
@@ -31,5 +140,7 @@
     <main></main>
 
     <footer></footer>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
