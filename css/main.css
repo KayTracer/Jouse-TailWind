@@ -1,7 +1,6 @@
 @import "tailwindcss";
 
 @theme {
-  --font-body: Oswald;
 }
 @font-face {
   font-family: Oswald;

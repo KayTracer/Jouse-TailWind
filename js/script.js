@@ -37,7 +37,7 @@ elemsBolinha.forEach((elemBolinha) => {
     elemTextoPersonalizacao.innerText =
       elemBolinha.getAttribute("data-texto-cor");
 
-    elemImgCarteira.src = elemImgCarteira.src.replace(corAtual, novaCor);
+    elemImgCarteira.src = elemImgCarteira.src.replaceAll(corAtual, novaCor);
 
     elemImgCarteira.setAttribute("data-cor-atual", novaCor);
   });
